@@ -76,7 +76,7 @@ public class Main {
 
         testing();
 
-        System.out.println('\n'+"======JDBC part======"+'\n');
+       /* System.out.println('\n'+"======JDBC part======"+'\n');
         DBConnector connector=new DBConnector();
         if(connector.hasDb!=1)
              connector.createDB();
@@ -98,6 +98,6 @@ public class Main {
         System.out.println('\n'+"=====HISTORY OF RENTING=====");
         connector.getHistory(r.persons,r.vehicles);
         System.out.println('\n'+"=====HISTORY OF RENTING BY A PERSON=====");
-        connector.getHistoryByPerson(r.persons.get(4));
+        connector.getHistoryByPerson(r.persons.get(4));*/
     }
 }
